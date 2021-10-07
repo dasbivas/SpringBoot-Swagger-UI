@@ -26,3 +26,16 @@ pom.xml
 			<version>2.9.2</version>
 		</dependency>
 ```
+# Anntations at Controller methods
+```
+@ApiOperation("FETCHIG ALL PRODUCTS DATA!!")
+@ApiIgnore- To avoid a method expose to Swagger UI
+```
+# At Class level:
+```
+@Api(description = "PRODUCT REST SERVICE")
+```
+# URL to Show Swagger Dashboard
+```
+http://localhost:8080/swagger-ui.html
+```
